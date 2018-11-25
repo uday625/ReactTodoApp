@@ -8,7 +8,7 @@ const Header = props => {
             <div className="Container ">
                 <div className="d-flex justify-content-center">
                     <i className="fa fa-th-list fa-2x"></i>
-                    <div className="h2 ml-2 my-auto text-dark" href="/"> {props.heading}</div>
+                    <div className="h2 ml-2 my-auto text-tomato" href="/"> {props.heading}</div>
                 </div>
             </div>
         </nav>        
