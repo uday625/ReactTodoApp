@@ -55,7 +55,6 @@ class TodoList extends Component {
                     changetodo = {this.handleChangeInput}  
                     currentItem = {this.state.currentItem.task} 
                     /> 
-                <p> Todo List</p>
                 <TodoItems 
                     todoitems = {this.state.todos}
                     clicked = {this.handleDeleteItem}

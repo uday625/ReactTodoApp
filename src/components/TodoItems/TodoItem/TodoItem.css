@@ -1,0 +1,9 @@
+.TodoItemMain {
+    width: 70%;
+    margin:0 auto;
+    text-align: left;
+}
+
+.itemborder{
+    border-bottom-color: #a54caa;
+}
