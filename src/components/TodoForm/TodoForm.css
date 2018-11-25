@@ -1,4 +1,13 @@
 .TodoFormMain{
-    Width: 70%;
+    Width: 60%;
     margin: 0 auto;
+}
+
+
+@media screen and (max-width:400px){
+    .TodoFormMain{
+        Width: 50%;
+        margin: auto;
+        padding:0px;
+    }
 }

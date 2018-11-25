@@ -2,6 +2,8 @@ import React, {Fragment, Component} from 'react';
 import TodoItems from '../../components/TodoItems/TodoItems'
 import TodoForm from '../../components/TodoForm/TodoForm';
 
+import './TodoList.css';
+
 class TodoList extends Component {
 
     state ={
@@ -49,7 +51,7 @@ class TodoList extends Component {
     render() { 
         return (  
         <Fragment>
-            <div>
+            <div >
                 <TodoForm  
                     addTodo    = {this.handleFormSubmit}
                     changetodo = {this.handleChangeInput}  
